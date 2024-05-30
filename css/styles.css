@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #272B34;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px; /* 1rem = 16px */
+    background-color: #272B34;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.img-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+header .nombrepag {
+    margin: 0;
+    color: #fff;
+    font-size: 19px; /* 1.2rem = 19.2px, redondeado a 19px */
+    margin-right: 150px; /* Añade espacio entre el h6 y la nav */
+
+}
+
+.nav_op {
+    display: flex;
+    gap: 16px; /* 1rem = 16px */
+}
+
+.nav_op a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; /* 1rem = 16px */
+    margin-right:  20px;
+}
+
+.nav_op a:hover {
+    color: #818080;
+}
